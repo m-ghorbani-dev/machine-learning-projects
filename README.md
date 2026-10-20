@@ -1,153 +1,101 @@
-# machine-learning-projects
-
 # Machine Learning Projects
 
-A portfolio of machine learning projects built with Python, covering data analysis, preprocessing, feature engineering, model training, evaluation, and practical applications.
+A portfolio of 10 machine learning projects built with Python, covering practical applications across regression, classification, fraud detection, natural language processing, recommendation systems, computer vision, time-series forecasting, and audio classification.
 
-**Status:** In progress — this repository will be updated as additional projects are added.
+Each project is organized in its own directory to make the repository easy to navigate, explore, and maintain.
 
 ## Projects
 
 | # | Project | Problem Type | Main Focus |
 |---|---|---|---|
-| 01 | House Price Prediction — Divar.ir | Regression | House price prediction |
-| 02 | Customer Churn Prediction | Classification | Customer churn analysis and prediction |
-| 03 | Salary Prediction — Stack Overflow | Regression | Salary prediction and model deployment |
-| 04 | Ethereum Fraud Detection | To be confirmed | Fraud detection using Ethereum-related data |
-| 05–10 | Coming Soon | — | Additional machine learning projects |
+| 01 | [House Price Prediction — Divar.ir](./01-house-price-prediction/) | Regression | Predicting house prices using housing data |
+| 02 | [Customer Churn Prediction](./02-customer-churn-prediction/) | Classification | Analyzing customer churn and predicting churn risk |
+| 03 | [Salary Prediction — Stack Overflow](./03-salary-prediction-stack-overflow/) | Regression | Predicting salaries using Stack Overflow survey data |
+| 04 | [Ethereum Fraud Detection](./04-ethereum-fraud-detection/) | Fraud Detection | Analyzing Ethereum-related data for fraud detection |
+| 05 | [NVIDIA Stock & Tweet Sentiment](./05-nvidia-stock-tweet-sentiment/) | Time Series / Sentiment Analysis | Exploring stock data alongside tweet sentiment |
+| 06 | [Recommender System with Word2Vec](./06-recommender-system-word2vec/) | Recommendation Systems / NLP | Using Word2Vec representations in a recommendation system |
+| 07 | [Traffic Sign Recognition — GTSRB](./07-traffic-sign-recognition-gtsrb/) | Computer Vision | Recognizing traffic signs from image data |
+| 08 | [Apple Stock Prediction using LSTM](./08-apple-stock-prediction-lstm/) | Time-Series Forecasting | Modeling Apple stock data using an LSTM-based approach |
+| 09 | [Speech Classification — UrbanSound8K](./09-speech-classification-urbansound8k/) | Audio Classification | Working with audio data for classification |
+| 10 | [Energy Consumption Prediction](./10-energy-consumption-prediction/) | Regression / Time Series | Predicting energy consumption from time-dependent data |
 
----
+## Skills and Topics
 
-## 01. House Price Prediction — Divar.ir
-
-A machine learning project focused on predicting house prices using data associated with Divar.ir.
-
-**Project files**
-- `house_price_prediction.ipynb`
-
-**Problem type:** Regression
-
----
-
-## 02. Customer Churn Prediction
-
-A machine learning project that analyzes customer data to predict whether a customer may leave a service.
-
-**Project files**
-- `customer_churn_prediction.ipynb`
-- `IT_customer_churn.csv`
-
-**Problem type:** Classification
-
----
-
-## 03. Salary Prediction — Stack Overflow
-
-A machine learning project focused on salary prediction using Stack Overflow-related data.
-
-**Project files**
-- `salary_prediction.ipynb`
-- `app.py`
-- `xgbpipe.joblib`
-
-**Problem type:** Regression
-
-The saved pipeline is included for use by the application. The exact input features, dependencies, and execution instructions will be documented after reviewing the project code.
-
----
-
-## 04. Ethereum Fraud Detection
-
-A machine learning project exploring fraud detection using Ethereum-related data.
-
-**Project files**
-- `ethereum_fraud_detection.ipynb`
-
-The problem formulation, algorithms, evaluation metrics, and results will be documented after reviewing the notebook.
-
----
-
-## Repository Structure
-
-```text
-machine-learning-projects/
-├── README.md
-├── .gitignore
-├── 01-house-price-prediction/
-│   └── house_price_prediction.ipynb
-├── 02-customer-churn-prediction/
-│   ├── customer_churn_prediction.ipynb
-│   └── IT_customer_churn.csv
-├── 03-salary-prediction/
-│   ├── salary_prediction.ipynb
-│   ├── app.py
-│   └── xgbpipe.joblib
-└── 04-ethereum-fraud-detection/
-    └── ethereum_fraud_detection.ipynb
-```
-
-This structure describes the planned organization of the first four projects. File and directory names may be adjusted to match the actual repository.
-
----
+- Data exploration and preprocessing
+- Feature engineering
+- Supervised learning: regression and classification
+- Fraud detection
+- Natural Language Processing (NLP) and sentiment analysis
+- Word2Vec and recommendation systems
+- Computer vision and image classification
+- Time-series analysis and forecasting
+- Deep learning approaches, including CNNs and LSTMs
+- Model training and evaluation
+- Organizing machine learning projects
 
 ## Technologies
 
-The technologies used in each project will be documented after reviewing its implementation.
-
-The repository may include:
+Depending on the project, the tools and libraries used may include:
 
 - Python
 - Jupyter Notebook
-- Pandas
-- NumPy
-- Scikit-learn
-- Data visualization libraries
-- XGBoost, if confirmed by the salary prediction implementation
+- pandas and NumPy
+- scikit-learn
+- Matplotlib and Seaborn
+- XGBoost
+- TensorFlow / Keras
 
----
+Refer to each project's directory for its specific dependencies and implementation details.
+
+## Repository Structure
+
+Each numbered directory contains the files associated with one project. Depending on the project, these may include notebooks, scripts, datasets, trained models, or an application.
+
+```text
+machine-learning-projects/
+├── 01-house-price-prediction/
+├── 02-customer-churn-prediction/
+├── 03-salary-prediction-stack-overflow/
+├── 04-ethereum-fraud-detection/
+├── 05-nvidia-stock-tweet-sentiment/
+├── 06-recommender-system-word2vec/
+├── 07-traffic-sign-recognition-gtsrb/
+├── 08-apple-stock-prediction-lstm/
+├── 09-speech-classification-urbansound8k/
+├── 10-energy-consumption-prediction/
+└── README.md
+```
 
 ## Getting Started
 
-Clone the repository:
+1. Clone the repository:
 
-```bash
-git clone git@github.com:m-ghorbani-dev/machine-learning-projects.git
-cd machine-learning-projects
-```
+   ```bash
+   git clone git@github.com:m-ghorbani-dev/machine-learning-projects.git
+   cd machine-learning-projects
+   ```
 
-Open the notebook for the project you want to explore using Jupyter Notebook or JupyterLab.
+   Alternatively, use HTTPS:
 
-Check each project's notebook and source files for its specific dependencies, dataset requirements, and execution instructions.
+   ```bash
+   git clone https://github.com/m-ghorbani-dev/machine-learning-projects.git
+   ```
 
-A shared `requirements.txt` and detailed setup instructions will be added after reviewing the dependencies of all projects.
+2. Choose a project directory.
+3. Read its project-specific README and setup instructions.
+4. Install the dependencies required for that project.
+5. Open its notebook or run its application as documented.
 
----
+## Project Documentation
 
-## Data and Model Files
+Each project should have its own `README.md` describing its objective, dataset, approach, key files, dependencies, and instructions for running it. This main README introduces the complete collection; project-specific details belong in the corresponding directories.
 
-Some projects include datasets or serialized machine learning models.
+## Notes
 
-- Check the source and license of each dataset before using or redistributing it.
-- Do not publish private, sensitive, or unauthorized data.
-- Only load serialized model files such as `.joblib` from trusted sources.
-- Check file sizes before pushing datasets and model artifacts to GitHub. Git LFS may be appropriate for large files.
+- This repository is a portfolio collection of machine learning projects for learning, experimentation, and demonstration.
+- Implementation details and evaluation results should be reviewed in the corresponding project files.
+- Dataset availability, model artifacts, and setup requirements may differ between projects.
 
----
+## Author
 
-## Roadmap
-
-- [x] Document the first four projects.
-- [ ] Add the remaining six projects.
-- [ ] Document the algorithms and preprocessing steps used in each project.
-- [ ] Add model evaluation metrics and results.
-- [ ] Verify project dependencies and execution instructions.
-- [ ] Add visualizations and screenshots where useful.
-- [ ] Add a shared `requirements.txt` if appropriate.
-
----
-
-## About
-
-This repository collects practical machine learning projects for learning, experimentation, and portfolio development.
-
-Project descriptions, technologies, and results will be refined as each project is reviewed and added.
+**GitHub:** [m-ghorbani-dev](https://github.com/m-ghorbani-dev)
