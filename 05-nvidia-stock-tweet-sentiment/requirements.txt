@@ -1,0 +1,10 @@
+pandas
+numpy
+matplotlib
+yfinance
+plotly
+tqdm
+transformers
+torch
+jupyterlab
+ipykernel
