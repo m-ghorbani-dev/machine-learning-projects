@@ -1,6 +1,6 @@
 # Machine Learning Projects
 
-A portfolio of 10 machine learning projects built with Python, covering practical applications across regression, classification, fraud detection, natural language processing, recommendation systems, computer vision, time-series forecasting, and audio classification.
+A portfolio of 11 machine learning projects built with Python, covering practical applications across regression, classification, fraud detection, natural language processing, recommendation systems, computer vision, time-series forecasting, and audio classification.
 
 Each project is organized in its own directory to make the repository easy to navigate, explore, and maintain.
 
@@ -13,11 +13,12 @@ Each project is organized in its own directory to make the repository easy to na
 | 03 | [Salary Prediction — Stack Overflow](./03-salary-prediction-stack-overflow/) | Regression | Predicting salaries using Stack Overflow survey data |
 | 04 | [Ethereum Fraud Detection](./04-ethereum-fraud-detection/) | Fraud Detection | Analyzing Ethereum-related data for fraud detection |
 | 05 | [NVIDIA Stock & Tweet Sentiment](./05-nvidia-stock-tweet-sentiment/) | Time Series / Sentiment Analysis | Exploring stock data alongside tweet sentiment |
-| 06 | [Recommender System with Word2Vec](./06-recommender-system-word2vec/) | Recommendation Systems / NLP | Using Word2Vec representations in a recommendation system |
-| 07 | [Traffic Sign Recognition — GTSRB](./07-traffic-sign-recognition-gtsrb/) | Computer Vision | Recognizing traffic signs from image data |
-| 08 | [Apple Stock Prediction using LSTM](./08-apple-stock-prediction-lstm/) | Time-Series Forecasting | Modeling Apple stock data using an LSTM-based approach |
-| 09 | [Speech Classification — UrbanSound8K](./09-speech-classification-urbansound8k/) | Audio Classification | Working with audio data for classification |
-| 10 | [Energy Consumption Prediction](./10-energy-consumption-prediction/) | Regression / Time Series | Predicting energy consumption from time-dependent data |
+| 06 | [Stock Market Analysis and LSTM Prediction](./06-stock-market-analysis-lstm/) | Time-Series Analysis / Deep Learning | Analyzing multiple technology stocks and evaluating an LSTM model for Apple closing-price prediction |
+| 07 | [Recommender System with Word2Vec](./07-recommender-system-word2vec/) | Recommendation Systems / NLP | Using Word2Vec representations in a recommendation system |
+| 08 | [Traffic Sign Recognition — GTSRB](./08-traffic-sign-recognition-gtsrb/) | Computer Vision | Recognizing traffic signs from image data |
+| 09 | [Apple Stock Prediction using LSTM](./09-apple-stock-prediction-lstm/) | Time-Series Forecasting | Modeling Apple stock data using an LSTM-based approach |
+| 10 | [Speech Classification — UrbanSound8K](./10-speech-classification-urbansound8k/) | Audio Classification | Working with audio data for classification |
+| 11 | [Energy Consumption Prediction](./11-energy-consumption-prediction/) | Regression / Time Series | Predicting energy consumption from time-dependent data |
 
 ## Skills and Topics
 
@@ -58,11 +59,12 @@ machine-learning-projects/
 ├── 03-salary-prediction-stack-overflow/
 ├── 04-ethereum-fraud-detection/
 ├── 05-nvidia-stock-tweet-sentiment/
-├── 06-recommender-system-word2vec/
-├── 07-traffic-sign-recognition-gtsrb/
-├── 08-apple-stock-prediction-lstm/
-├── 09-speech-classification-urbansound8k/
-├── 10-energy-consumption-prediction/
+├── 06-stock-market-analysis-lstm/
+├── 07-recommender-system-word2vec/
+├── 08-traffic-sign-recognition-gtsrb/
+├── 09-apple-stock-prediction-lstm/
+├── 10-speech-classification-urbansound8k/
+├── 11-energy-consumption-prediction/
 └── README.md
 ```
 
